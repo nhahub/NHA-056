@@ -18,7 +18,7 @@ import sqlite3
 
 # ----------------- CONFIG & CONSTANTS -----------------
 DB_NAME = "sql_lite_db.db"
-TEMP_MODEL_PATH = "models/uploaded_model.pt"
+TEMP_MODEL_PATH = "uploaded_model.pt"
 
 # ----------------- DATABASE FUNCTIONS -----------------
 def init_db():
@@ -324,4 +324,5 @@ def main():
 if __name__ == "__main__":
     main()
     
+
 
